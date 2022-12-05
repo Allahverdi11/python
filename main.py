@@ -121,15 +121,5 @@
 #elif sayi< 50 or sayi > 100:
  # print("yanlis aralik")
 
-sayi = float(input("Bir sayi giriniz: "))
-if sayi>0 and (sayi%2 == 0 ):
-  print("pozitif cift sayi")
-elif sayi<0 and (sayi %2== 0):
-  print("negatif, cift sayi")
-elif sayi>0 and (sayi %2==1):
-  print("pozitif, tek sayi")
-elif sayi<0 and (sayi%2==1):
-  print("negatif, tek sayi")
-if sayi==0 and (sayi%2==0):
-  print("ne negatif, ne pozitif")
+
 
